@@ -1,0 +1,141 @@
+.section_hero {
+  background-image: url('../images/BG.jpg');
+  background-position: 50%;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.toki {
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  inset: auto 5% 0% auto;
+}
+
+.toki1 {
+  height: 100%;
+}
+
+.eyes {
+  display: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.logo {
+  height: 150px;
+}
+
+.grain {
+  z-index: 2000;
+  opacity: .5;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  background-image: url('../images/grain.png');
+  background-position: 0 0;
+  background-size: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  inset: 0%;
+}
+
+.links {
+  z-index: 50;
+  margin: 20px;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.tg {
+  background-color: #94da25ba;
+  background-image: url('../images/tg.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  border: 2px solid #f9e4a3;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-left: 7px;
+}
+
+.tg:hover {
+  border-color: #fff;
+}
+
+.x {
+  background-color: #94da25ba;
+  background-image: url('../images/x.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 89%;
+  border: 2px solid #f9e4a3;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-left: 7px;
+}
+
+.x:hover {
+  border-color: #fff;
+}
+
+.screener {
+  background-color: #94da25ba;
+  background-image: url('../images/dex.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  border: 2px solid #f9e4a3;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-left: 7px;
+}
+
+.screener:hover {
+  border-color: #fff;
+}
+
+.dex {
+  background-color: #94da25ba;
+  background-image: url('../images/dextools.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto 65%;
+  border: 2px solid #f9e4a3;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-left: 7px;
+}
+
+.dex:hover {
+  border-color: #fff;
+}
+
+@media screen and (max-width: 479px) {
+  .toki {
+    right: auto;
+  }
+
+  .links {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    right: auto;
+  }
+}
